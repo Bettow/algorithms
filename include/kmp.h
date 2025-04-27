@@ -15,8 +15,8 @@
  *
  ******************************************************************************/
 
-#ifndef __KMP_H__
-#define __KMP_H__
+#ifndef ALGO_KMP_H__
+#define ALGO_KMP_H__
 #include <string.h>
 
 namespace alg {
@@ -33,7 +33,7 @@ namespace alg {
 		int m = 0;
 		int i = 0;
 		int T[LEN_W];
-		
+
 		kmp_table(W,T, LEN_W);
 
 		while (m+i < LEN_S) {
